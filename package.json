@@ -1,0 +1,26 @@
+{
+  "name": "kzip",
+  "version": "1.0.0",
+  "description": "Base on node zip to make dist file zipped!",
+  "main": "index.js",
+  "scripts": {
+    "test:zip": "node test/zip",
+    "test:unzip": "node test/unzip"
+  },
+  "keywords": [
+    "node",
+    "zip",
+    "dist",
+    "vue",
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hawtim/kzip.git"
+  },
+  "author": "kunkka <vastfieldjason@gmail.com> (https://github.com/hawtim)",
+  "license": "ISC",
+  "devDependencies": {
+    "archiver": "^3.0.0"
+  }
+}
