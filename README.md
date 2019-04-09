@@ -8,7 +8,7 @@ Commonly, we build our webapp we got a lot of change in git panel which is easy 
 
 So I use this to zip the dist file which make the change clear and relax.
 
-Centainly you need server maintenance part to unziping the `dist.zip` autoly.
+Centainly you need server maintenance side to unziping the `dist.zip` autoly.
 
 ## Usage
 
