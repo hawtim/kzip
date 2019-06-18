@@ -1,17 +1,19 @@
 {
-  "name": "kzip",
+  "name": "kty",
   "version": "1.0.0",
-  "description": "Base on node zip to make dist file zipped!",
+  "description": "Script to process image compress via tinypng",
   "main": "index.js",
   "scripts": {
-    "test:zip": "node test/zip",
-    "test:unzip": "node test/unzip"
+    "test": "node test/kty"
   },
   "keywords": [
     "node",
-    "zip",
+    "tinypng",
     "dist",
     "vue",
+    "react",
+    "compress",
+    "image",
     "build"
   ],
   "repository": {
@@ -21,6 +23,6 @@
   "author": "kunkka <vastfield@163.com> (https://github.com/hawtim)",
   "license": "ISC",
   "devDependencies": {
-    "archiver": "^3.0.0"
+    "@mora/tinypng": "0.0.8"
   }
 }
